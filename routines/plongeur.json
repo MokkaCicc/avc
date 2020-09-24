@@ -1,0 +1,18 @@
+{
+    "name": "Plongeur",
+    "moves": [
+        {
+            "position": {
+                "m1": 0.0,
+                "m2": -45.0,
+                "m3": 50.0,
+                "m4": 0.0,
+                "m5": -50.0,
+                "m6": 0.0
+            },
+            "start_wait": 0.0,
+            "transition_time": 2.0,
+            "end_wait": 2.0
+        }
+    ]
+}

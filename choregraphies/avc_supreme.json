@@ -1,0 +1,35 @@
+{
+    "name": "AVC supreme",
+    "routines": [
+        {
+            "name": "Balai",
+            "start_wait": 1.0,
+            "end_wait": 1.0
+        },
+        {
+            "name": "Looping",
+            "start_wait": 1.0,
+            "end_wait": 1.0
+        },
+        {
+            "name": "Plongeur",
+            "start_wait": 1.0,
+            "end_wait": 1.0
+        },
+        {
+            "name": "Reverse",
+            "start_wait": 1.0,
+            "end_wait": 1.0
+        },
+        {
+            "name": "Shaker",
+            "start_wait": 1.0,
+            "end_wait": 1.0
+        },
+        {
+            "name": "Sky watching",
+            "start_wait": 1.0,
+            "end_wait": 1.0
+        }
+    ]
+}
