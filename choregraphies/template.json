@@ -1,0 +1,17 @@
+{
+    "name": "Template choregraphy",
+    "routines": [
+        {
+            "name": "Template angles",
+            "start_wait": 1.0,
+            "transition_time": 1.0,
+            "end_wait": 1.0
+        },
+        {
+            "name": "Template coordinates",
+            "start_wait": 1.0,
+            "transition_time": 1.0,
+            "end_wait": 1.0
+        }
+    ]
+}
