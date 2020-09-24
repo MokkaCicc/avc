@@ -6,6 +6,7 @@ class Choregraphy:
         self.name = None
         self.parser = AvcParser()
         self.routines = list()
+        self.time = None
 
 
     def load_choregraphy(self, routines_folder_path:str, choregraphy_json_path:str):
@@ -15,6 +16,10 @@ class Choregraphy:
         self.name = name
         self.routines = routines
 
+        self.time = 0
+        for routine in self.routines:
+            self.time += routine.time
+
 
     def __repr__(self):
         if not self.name:
@@ -22,6 +27,7 @@ class Choregraphy:
         else:
             s = "----------------------------------------"
             s += f"\nChoregraphy '{self.name}'"
+            s += f"\nTotal time : {self.time}s"
 
             for i in range(len(self.routines)):
                 s += "\n\n"

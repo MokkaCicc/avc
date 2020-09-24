@@ -1,17 +1,11 @@
 class Move:
-    def __init__(
-        self,
-        use_angle: bool,
-        position: dict,
-        start_wait: float,
-        transition_time: float,
-        end_wait: float
-    ):
+    def __init__(self, use_angle: bool, position: dict, start_wait: float, transition_time: float, end_wait: float):
         self.use_angle = use_angle
         self.position = position
         self.start_wait = start_wait
         self.transition_time = transition_time
         self.end_wait = end_wait
+        self.time = self.start_wait + self.transition_time + self.end_wait
 
 
     def __repr__(self):
