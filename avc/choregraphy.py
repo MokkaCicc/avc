@@ -25,7 +25,8 @@ class Choregraphy:
 
             for i in range(len(self.routines)):
                 s += "\n\n"
-                s += f"Routine n°{i+1}\n"
+                s += "------------------"
+                s += f"\nRoutine n°{i+1}\n"
                 s += str(self.routines[i])
 
         return s
